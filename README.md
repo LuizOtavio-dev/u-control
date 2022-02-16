@@ -22,7 +22,7 @@ Abra um terminal no seu computador e utilize os comandos a baixo na ordem que s√
 
 git clone git@github.com:LuizOtavio-dev/u-control.git
 
-cd u-control
+cd u-control/frontend
 
 npm install
 
