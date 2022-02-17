@@ -13,7 +13,7 @@ describe("test the body component", () => {
 
   it("tests if the component contains a form, an input and a button", () => {
     render(<App />);
-    const form = screen.getByRole('form');
+    const form = screen.getAllByRole('form');
     const input = screen.getAllByPlaceholderText(/Adicione uma tarefa/i);
     const button = screen.getAllByRole('button')
 

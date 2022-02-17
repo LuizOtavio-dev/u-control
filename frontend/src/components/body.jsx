@@ -24,14 +24,14 @@ function Body() {
   return(
     <div className="body">
       <h1>"Com organização e tempo, acha-se o segredo de fazer tudo e bem feito.” -Pitágoras</h1>
-      <form>
+      <form className="form">
         <label>
           <input type="text" placeholder="Adicione uma tarefa" onChange={handleChangeInput} value={task} />
         </label>
-        <button type="submit" onClick={handleAddItemToList}>Adicionar</button>
+        <button type="submit" onClick={handleAddItemToList} className="button-add">Adicionar</button>
       </form>
-      <ul className="list">
-        {itemsList.map((item, index) => (<li key={index}>{item}</li>))}
+      <ul>
+        {itemsList.map((item, index) => (<li className="list" key={index}>{item}</li>))}
       </ul>
     </div>
   );
