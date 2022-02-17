@@ -5,7 +5,6 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <h1>uControl</h1>
     </div>
   );
 }
