@@ -11,6 +11,9 @@ function Body() {
         </label>
         <button type="submit">Adicionar</button>
       </form>
+      <ul>
+        <li>Item</li>
+      </ul>
     </div>
   );
 }
