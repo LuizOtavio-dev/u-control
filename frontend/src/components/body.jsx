@@ -22,7 +22,7 @@ function Body() {
   }
 
   return(
-    <div>
+    <div className="body">
       <h1>"Com organização e tempo, acha-se o segredo de fazer tudo e bem feito.” -Pitágoras</h1>
       <form>
         <label>
@@ -30,8 +30,8 @@ function Body() {
         </label>
         <button type="submit" onClick={handleAddItemToList}>Adicionar</button>
       </form>
-      <ul>
-        {itemsList.map( item => (<li>{item}</li>))}
+      <ul className="list">
+        {itemsList.map((item, index) => (<li key={index}>{item}</li>))}
       </ul>
     </div>
   );
