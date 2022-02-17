@@ -31,7 +31,7 @@ function Body() {
         <button type="submit" onClick={handleAddItemToList}>Adicionar</button>
       </form>
       <ul>
-        <li>Item</li>
+        {itemsList.map( item => (<li>{item}</li>))}
       </ul>
     </div>
   );
