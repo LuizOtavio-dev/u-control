@@ -7,10 +7,8 @@ describe("test the body component", () => {
   it("Test if the component contains a 'Com organização e tempo' text", () => {
     render(<App />);
     const title = screen.getByText(/Com organização e tempo/i);
-    const form = screen.getByRole('form');
 
     expect(title).toBeInTheDocument();
-    expect(form).toBeInTheDocument();
   });
 
   it("tests if the component contains a form, an input and a button", () => {
