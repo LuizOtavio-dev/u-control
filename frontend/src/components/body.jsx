@@ -9,6 +9,7 @@ function Body() {
         <label>
           <input type="text" placeholder="Adicione uma tarefa" />
         </label>
+        <button type="submit">Adicionar</button>
       </form>
     </div>
   );
